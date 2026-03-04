@@ -1,0 +1,25 @@
+{
+  "name": "@novasend/documentation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run docs:dev",
+    "docs:build": "vitepress build",
+    "docs:dev": "vitepress dev",
+    "docs:preview": "vitepress preview",
+    "serve": "vitepress build && vitepress serve"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
+  "dependencies": {
+    "@hempworks/pilgrim": "0.1.18",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "10.4.16",
+    "tailwindcss": "3.3.3",
+    "vitepress": "1.0.0-beta.1"
+  }
+}

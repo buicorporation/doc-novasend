@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - npm add -D vitepress@1.0.0-beta.1
+      - npm run docs:build
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: .vitepress/dist
