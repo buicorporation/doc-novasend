@@ -80,7 +80,7 @@ export default defineConfigWithTheme<ThemeConfig>({
 
     nav: [
       { text: 'Website', link: 'https://novasend.app' },
-      { text: 'Portal', link: 'https://portal.novasend.app' },
+      { text: 'Portal', link: 'https://business-portal.novasend.app/login' },
       {
         text: 'Payment',
         link: '/transaction/payment',

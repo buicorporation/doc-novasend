@@ -7,12 +7,12 @@
 To find out the list of service_ids available in your company's country, we have provided an endpoint.
 
 ```sh
-GET https://api.novasend.app/v1.0/services
+GET https://business-api.novasend.app/v1.0/services
 ```
 
 ```http request
 GET /v1.0/services HTTP/1.1
-Host: api.novasend.app
+Host: business-api.novasend.app
 Accept: application/json
 Content-Type: application/json
 Accept-Encoding: gzip

@@ -7,7 +7,7 @@ You will find the list of services available by country below. This page will be
 ## Get service List
 
 ```sh
-POST https://api.novasend.app/v1.0/services
+POST https://business-api.novasend.app/v1.0/services
 ```
 
 ## Payin service List
@@ -15,7 +15,7 @@ POST https://api.novasend.app/v1.0/services
 Retrieve the list of payin services available in your company's country.
 
 ```sh
-POST https://api.novasend.app/v1.0/services/payin/list
+POST https://business-api.novasend.app/v1.0/services/payin/list
 ```
 
 ## Payout service List
@@ -23,7 +23,7 @@ POST https://api.novasend.app/v1.0/services/payin/list
 Retrieve the list of payout services available in your company's country.
 
 ```sh
-POST https://api.novasend.app/v1.0/services/payout/list
+POST https://business-api.novasend.app/v1.0/services/payout/list
 ```
 
 ## Service by identifier
@@ -31,7 +31,7 @@ POST https://api.novasend.app/v1.0/services/payout/list
 To search for a specific service, simply use the endpoint below and replace *:serviceIdentifier* with the desired identifier, for e.g: PAYIN_ORANGE_CI
 
 ```sh
-POST https://api.novasend.app/v1.0/services/:serviceIdentifier
+POST https://business-api.novasend.app/v1.0/services/:serviceIdentifier
 ```
 
 ### Response

@@ -5,7 +5,7 @@
 You have a single endpoint for your various payment methods. Our API is for direct use without a payment page, except for wave payments.
 
 ```sh
-POST https://api.novasend.app/v1.0/payments
+POST https://business-api.novasend.app/v1.0/payments
 ```
 
 ## Mobile Money
@@ -128,5 +128,5 @@ The des response of a transfer transaction contains a `payments` object, as in t
 ## Payment status
 
 ```sh
-GET https://api.novasend.app/v1.0/payments/{paymentId}
+GET https://business-api.novasend.app/v1.0/payments/{paymentId}
 ```

@@ -17,12 +17,12 @@ All you have to do is fill the form and you're all set.
 You have an endpoint that allows to return a list of y'all wallets
 
 ```sh
-GET https://api.novasend.app/v1.0/wallets
+GET https://business-api.novasend.app/v1.0/wallets
 ```
 
 ```http request
 GET /v1.0/wallets HTTP/1.1
-Host: api.novasend.app
+Host: business-api.novasend.app
 Accept: application/json
 Content-Type: application/json
 Accept-Encoding: gzip
@@ -54,12 +54,12 @@ Authorization: Bearer bui_sandbox_ACLw58qXqjMMI2ukkBnuCh4XXXXXXXXX
 ## Payin
 
 ```sh
-GET https://api.novasend.app/v1.0/wallets/payin
+GET https://business-api.novasend.app/v1.0/wallets/payin
 ```
 
 ```http request
 GET /v1.0/wallets/payin HTTP/1.1
-Host: api.novasend.app
+Host: business-api.novasend.app
 Accept: application/json
 Content-Type: application/json
 Accept-Encoding: gzip
@@ -81,12 +81,12 @@ Authorization: Bearer bui_sandbox_ACLw58qXqjMMI2ukkBnuCh4XXXXXXXXX
 ## Payout
 
 ```sh
-GET https://api.novasend.app/v1.0/wallets/payout
+GET https://business-api.novasend.app/v1.0/wallets/payout
 ```
 
 ```http request
 GET /v1.0/wallets/payout HTTP/1.1
-Host: api.novasend.app
+Host: business-api.novasend.app
 Accept: application/json
 Content-Type: application/json
 Accept-Encoding: gzip

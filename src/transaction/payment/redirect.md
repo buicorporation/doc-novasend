@@ -5,7 +5,7 @@
 If you want to use our payment page, simply use this endpoint to generate a payment intent.
 
 ```sh
-POST https://api.novasend.app/v1.0/payment-intent
+POST https://business-api.novasend.app/v1.0/payment-intent
 ```
 
 ### Header
@@ -56,5 +56,5 @@ The response of a payment intent transaction contains a `paymentIntent` object, 
 ## Payment intent status
 
 ```sh
-GET https://api.novasend.app/v1.0/payment-intent/{paymentIntentId}
+GET https://business-api.novasend.app/v1.0/payment-intent/{paymentIntentId}
 ```
