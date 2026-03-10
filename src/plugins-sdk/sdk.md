@@ -53,7 +53,7 @@ NovaSend::setApiKey("CI", "votre-cle-api-pour-cote-d-ivoire");
 NovaSend::setApiKey("SN", "votre-cle-api-pour-senegal");
 
 // Initialisation du client HTTP
-$httpClient = new HttpClient('https://api.novasend.app');
+$httpClient = new HttpClient('https://business-api.novasend.app');
 
 // Configuration du client pour les différentes classes de service
 NovaSend\Payment::setHttpClient($httpClient);

@@ -5,7 +5,7 @@
 You have a single endpoint for your various transfer methods
 
 ```sh
-POST https://api.novasend.app/v1.0/transfers
+POST https://business-api.novasend.app/v1.0/transfers
 ```
 
 ## Mobile Money
@@ -110,5 +110,5 @@ The response of a transfer transaction contains a `transfers` object, as in the 
 ## Transfer status
 
 ```sh
-GET https://api.novasend.app/v1.0/transfers/{transferId}
+GET https://business-api.novasend.app/v1.0/transfers/{transferId}
 ```

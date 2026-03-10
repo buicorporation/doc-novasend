@@ -12,7 +12,7 @@ To use these APIs, you must have a NovaSend account.
 All the endpoint paths referenced in the API document are relative to a base URL
 
 ```txt
-https://api.novasend.app
+  https://business-api.novasend.app
 ```
 
 ## Authentication

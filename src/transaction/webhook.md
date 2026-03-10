@@ -17,7 +17,7 @@
 ## Subscribe
 
 ```sh
-POST https://api.novasend.app/v1.0/webhooks/subscriptions
+POST https://business-api.novasend.app/v1.0/webhooks/subscriptions
 ```
 
 ### Request
@@ -42,7 +42,7 @@ POST https://api.novasend.app/v1.0/webhooks/subscriptions
 
 ```http request
 POST /v1.0/webhooks/subscriptions HTTP/1.1
-Host: api.novasend.app
+Host: business-api.novasend.app
 Accept: application/json
 Content-Type: application/json
 Accept-Encoding: application/gzip
@@ -99,7 +99,7 @@ Note that you can create only one subscription per environment, whether your acc
 ## Update
 
 ```sh
-PUT https://api.novasend.app/v1.0/webhooks/subscriptions/{webhookId}
+PUT https://business-api.novasend.app/v1.0/webhooks/subscriptions/{webhookId}
 ```
 
 ```
@@ -123,7 +123,7 @@ PUT https://api.novasend.app/v1.0/webhooks/subscriptions/{webhookId}
 ## Unsubscribe
 
 ```sh
-DELETE https://api.novasend.app/v1.0/webhooks/subscriptions/{webhookId}
+DELETE https://business-api.novasend.app/v1.0/webhooks/subscriptions/{webhookId}
 ```
 
 ## Signature
