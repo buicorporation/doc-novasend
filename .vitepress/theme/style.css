@@ -17,3 +17,14 @@ html {
 .download-button:hover {
   background-color: #45a049;
 }
+
+.table-of-contents > ul > li:has(> a[href="#mobile-money"]) {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 1rem;
+}
+
+.table-of-contents > ul > li:has(> a[href="#mobile-money"]) > a {
+  font-weight: 600;
+}
