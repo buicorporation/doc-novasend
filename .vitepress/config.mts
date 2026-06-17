@@ -81,6 +81,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     nav: [
       { text: 'Website', link: 'https://novasend.app' },
       { text: 'Portal', link: 'https://business-portal.novasend.app/login' },
+      { text: 'Support & Bug Reports', link: '/support.html' },
+      { text: 'Errors', link: '/errors.html' },
       {
         text: 'Payment',
         link: '/transaction/payment',
@@ -99,6 +101,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         items: [
           { text: 'Starting', link: '/starting' },
           { text: 'Support & Bug Reports', link: '/support.html' },
+          { text: 'Errors', link: '/errors.html' },
           { text: 'Changelog', link: '/changelog.html' },
           { text: 'what you need to know', link: '/wyntk.html' },
         ]

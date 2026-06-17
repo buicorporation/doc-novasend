@@ -53,18 +53,4 @@ If you send many requests in a short space of time, you risk receiving error **4
 
 When an API request cannot be completed successfully, the response provides information about the failure in the message body and in the HTTP status code.
 
-## Error details
-
-In response to unsuccessful requests, NovaSend provides details about the error in the message body.
-This includes, minimally, a short `statusCode` and longer user-readable `message` describing the error.
-For validation errors, NovaSend may also provide details of what failed including the field that failed validation and the problem with it.
-
-```json
-{
-    "error": "Forbidden",
-    "statusCode": 403,
-    "correlationId": "d84caf0f-0941-4998-8376-68c7c9ab7913",
-    "causationId": "de0c0e48-b9bb-46d6-9b6e-341b7b687473",
-    "message": "Le portefeuille wt_8601300d5198acf8 n'a pas assez de fonds"
-}
-```
+See the [Errors](/errors.html) reference for the response format, validation errors, authentication errors, HTTP status codes, and business error catalogue.
