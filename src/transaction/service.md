@@ -114,6 +114,8 @@ If you wish, you can use the list we provide to display or disable payment metho
 | Provider | Payin           | Payout           |
 |----------|-----------------|------------------|
 | Airtel   | PAYIN_AIRTEL_NE | PAYOUT_AIRTEL_NE |
+| Moov     | PAYIN_MOOV_NE   | PAYOUT_MOOV_NE   |
+| Nita     | PAYIN_NITA_NE   | PAYOUT_NITA_NE   |
 
 
 ## Cameroon

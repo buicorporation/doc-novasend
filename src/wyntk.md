@@ -74,3 +74,5 @@ To improve the success rate, please use this information to validate the front e
 | Provider | Code | E.164 Length | Msidn Length | E.164 Mask   | first Digits |
 |----------|------|--------------|--------------|--------------|--------------|
 | Airtel   | +227 | 12           | 8            | +227######## | 9            |
+| Moov     | +227 | 12           | 8            | +227######## | 7            |
+| Nita     | +227 | 12           | 8            | +227######## | 7,9          |
